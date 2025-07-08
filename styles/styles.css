@@ -8,20 +8,25 @@
 header {
     background-color: #0033cc;
     border-bottom: 2px solid black;
+    display: grid;
+    grid-template-columns: 200px  50px auto;
 }
 
 header img {
-    width: 250px;
+    width: 200px;
     padding: 20px;
+    grid-area: 1/1/4/2;
 }
 
 nav {
-    display: inline;
-    float: right;
+    grid-area: 2/3/3/4;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
     color: black;
+    font-size: 2em;
     text-decoration: none;
 }
 
