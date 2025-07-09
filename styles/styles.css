@@ -2,7 +2,7 @@
     border: 5px solid black;
     border-radius: 5px;
     max-width: 1000px;
-    margin: auto;
+    margin: 25px auto;
 }
 
 header {
@@ -46,9 +46,42 @@ nav a {
     grid-column: 2;
 }
 
-#exploration {}
+#exploration {
+    padding: 40px;
+}
+
+#exploration h2 {
+    font-size: 2.5em;
+}
+
+#exploration a {
+    text-decoration: none;
+    color: black;
+}
+
+#exploration p {
+    margin-left: 50px;
+}
+
+#mainLogo {
+    display: flex;
+    justify-self: center;
+    margin-bottom: 100px;
+}
 
 footer {
     border-top: 2px solid black;
     background-color: #ffea29;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#siteName {
+    padding: 0 10px;
+}
+
+#className {
+    display: flex;
+    justify-self: right;
+    padding: 0 10px;
 }
